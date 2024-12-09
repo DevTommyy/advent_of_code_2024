@@ -1,0 +1,15 @@
+[package]
+name = "day_9"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+advent_of_code_2024 = { path = "../" }
+
+[[bin]]
+name = "1"
+path = "src/part_1.rs"
+
+[[bin]]
+name = "2"
+path = "src/part_2.rs"
