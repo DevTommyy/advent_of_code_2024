@@ -1,0 +1,17 @@
+[package]
+name = "day_15"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+advent_of_code_2024 = { path = "../" }
+macroquad = "0.4.13"
+tokio = { version = "1.42.0", features = ["time"] }
+
+[[bin]]
+name = "1"
+path = "src/part_1.rs"
+
+[[bin]]
+name = "2"
+path = "src/part_2.rs"
