@@ -349,6 +349,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "day_25"
+version = "0.1.0"
+dependencies = [
+ "advent_of_code_2024",
+]
+
+[[package]]
 name = "day_3"
 version = "0.1.0"
 dependencies = [
